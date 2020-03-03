@@ -16,7 +16,7 @@ class CreateTblTeamsTable extends Migration
         Schema::create('tbl_teams', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('team_name',60)->nullable(false);
-            $table->integer('employee_id')->unsigned();
+            $table->string('employee_id',60)->nullable(false);
             $table->timestamps();
             $table->softDeletes();
         });
