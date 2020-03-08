@@ -183,226 +183,16 @@
                             </div>
                             <div class="col-lg-3 col-md-4 col-sm-12">
                                 <a href="javascript:void(0);" class="btn btn-sm btn-primary" title="">Search</a>
-                                <a href="javascript:void(0);" class="btn btn-sm btn-success" title="">Add New</a>
+                                <button type="button" class="btn btn-sm btn-success" data-toggle="modal" id="add_button"><i class="fe fe-plus mr-2"></i>Add New</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-xl-3 col-lg-4 col-md-6">
-                <div class="card">
-                    <div class="card-body text-center ribbon">
-                        <div class="ribbon-box green">New</div>
-                        <img class="rounded-circle img-thumbnail w100" src="../assets/images/sm/avatar1.jpg" alt="">
-                        <h6 class="mt-3 mb-0">Michelle Green</h6>
-                        <span>jason-porter@info.com</span>
-                        <ul class="mt-3 list-unstyled d-flex justify-content-center">
-                            <li><a class="p-3" target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a class="p-3" target="_blank" href="#"><i class="fa fa-slack"></i></a></li>
-                            <li><a class="p-3" target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
-                        </ul>
-                        <button class="btn btn-default btn-sm">View Profile</button>
-                        <button class="btn btn-default btn-sm">Message</button>
-                        <div class="row text-center mt-4">
-                            <div class="col-6 border-right">
-                                <label class="mb-0">Project</label>
-                                <h4 class="font-18">07</h4>
-                            </div>
-                            <div class="col-6">
-                                <label class="mb-0">Deal</label>
-                                <h4 class="font-18">$2,510</h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>    
-            <div class="col-xl-3 col-lg-4 col-md-6">
-                <div class="card">
-                    <div class="card-body text-center ribbon">
-                        <div class="ribbon-box indigo">India</div>
-                        <img class="rounded-circle img-thumbnail w100" src="../assets/images/sm/avatar3.jpg" alt="">
-                        <h6 class="mt-3 mb-0">David Wallace</h6>
-                        <span>Michelle@info.com</span>
-                        <ul class="mt-3 list-unstyled d-flex justify-content-center">
-                            <li><a class="p-3" target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a class="p-3" target="_blank" href="#"><i class="fa fa-dribbble"></i></a></li>
-                            <li><a class="p-3" target="_blank" href="#"><i class="fa fa-slack"></i></a></li>
-                            <li><a class="p-3" target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
-                        </ul>
-                        <button class="btn btn-default btn-sm">View Profile</button>
-                        <button class="btn btn-default btn-sm">Message</button>
-                        <div class="row text-center mt-4">
-                            <div class="col-6 border-right">
-                                <label class="mb-0">Project</label>
-                                <h4 class="font-18">14</h4>
-                            </div>
-                            <div class="col-6">
-                                <label class="mb-0">Deal</label>
-                                <h4 class="font-18">$7,510</h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-3 col-lg-4 col-md-6">
-                <div class="card">
-                    <div class="card-body text-center">
-                        <img class="rounded-circle img-thumbnail w100" src="../assets/images/sm/avatar4.jpg" alt="">
-                        <h6 class="mt-3 mb-0">Michelle Green</h6>
-                        <span>jason-porter@info.com</span>
-                        <ul class="mt-3 list-unstyled d-flex justify-content-center">
-                            <li><a class="p-3" target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a class="p-3" target="_blank" href="#"><i class="fa fa-slack"></i></a></li>
-                            <li><a class="p-3" target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
-                        </ul>
-                        <button class="btn btn-default btn-sm">View Profile</button>
-                        <button class="btn btn-default btn-sm">Message</button>
-                        <div class="row text-center mt-4">
-                            <div class="col-6 border-right">
-                                <label class="mb-0">Project</label>
-                                <h4 class="font-18">08</h4>
-                            </div>
-                            <div class="col-6">
-                                <label class="mb-0">Deal</label>
-                                <h4 class="font-18">$5,510</h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>    
-            <div class="col-xl-3 col-lg-4 col-md-6">
-                <div class="card">
-                    <div class="card-body text-center">
-                        <img class="rounded-circle img-thumbnail w100" src="../assets/images/sm/avatar6.jpg" alt="">
-                        <h6 class="mt-3 mb-0">Michelle Green</h6>
-                        <span>jason-porter@info.com</span>
-                        <ul class="mt-3 list-unstyled d-flex justify-content-center">
-                            <li><a class="p-3" target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a class="p-3" target="_blank" href="#"><i class="fa fa-pinterest"></i></a></li>
-                            <li><a class="p-3" target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
-                        </ul>
-                        <button class="btn btn-default btn-sm">View Profile</button>
-                        <button class="btn btn-default btn-sm">Message</button>
-                        <div class="row text-center mt-4">
-                            <div class="col-6 border-right">
-                                <label class="mb-0">Project</label>
-                                <h4 class="font-18">05</h4>
-                            </div>
-                            <div class="col-6">
-                                <label class="mb-0">Deal</label>
-                                <h4 class="font-18">$1,071</h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-3 col-lg-4 col-md-6">
-                <div class="card">
-                    <div class="card-body text-center ribbon">
-                        <div class="ribbon-box orange">Gold</div>
-                        <img class="rounded-circle img-thumbnail w100" src="../assets/images/sm/avatar5.jpg" alt="">
-                        <h6 class="mt-3 mb-0">Michelle Green</h6>
-                        <span>jason-porter@info.com</span>
-                        <ul class="mt-3 list-unstyled d-flex justify-content-center">
-                            <li><a class="p-3" target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a class="p-3" target="_blank" href="#"><i class="fa fa-slack"></i></a></li>
-                            <li><a class="p-3" target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
-                        </ul>
-                        <button class="btn btn-default btn-sm">View Profile</button>
-                        <button class="btn btn-default btn-sm">Message</button>
-                        <div class="row text-center mt-4">
-                            <div class="col-6 border-right">
-                                <label class="mb-0">Project</label>
-                                <h4 class="font-18">31</h4>
-                            </div>
-                            <div class="col-6">
-                                <label class="mb-0">Deal</label>
-                                <h4 class="font-18">$45,510</h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-3 col-lg-4 col-md-6">
-                <div class="card">
-                    <div class="card-body text-center">
-                        <img class="rounded-circle img-thumbnail w100" src="../assets/images/sm/avatar1.jpg" alt="">
-                        <h6 class="mt-3 mb-0">Sean Black</h6>
-                        <span>jason-porter@info.com</span>
-                        <ul class="mt-3 list-unstyled d-flex justify-content-center">
-                            <li><a class="p-3" target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a class="p-3" target="_blank" href="#"><i class="fa fa-slack"></i></a></li>
-                            <li><a class="p-3" target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
-                        </ul>
-                        <button class="btn btn-default btn-sm">View Profile</button>
-                        <button class="btn btn-default btn-sm">Message</button>
-                        <div class="row text-center mt-4">
-                            <div class="col-6 border-right">
-                                <label class="mb-0">Project</label>
-                                <h4 class="font-18">31</h4>
-                            </div>
-                            <div class="col-6">
-                                <label class="mb-0">Deal</label>
-                                <h4 class="font-18">$45,510</h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-3 col-lg-4 col-md-6">
-                <div class="card">
-                    <div class="card-body text-center ribbon">
-                        <div class="ribbon-box pink">USA</div>
-                        <img class="rounded-circle img-thumbnail w100" src="../assets/images/sm/avatar2.jpg" alt="">
-                        <h6 class="mt-3 mb-0">Jason Porter</h6>
-                        <span>Carol@info.com</span>
-                        <ul class="mt-3 list-unstyled d-flex justify-content-center">
-                            <li><a class="p-3" target="_blank" href="#"><i class="fa fa-skype"></i></a></li>
-                            <li><a class="p-3" target="_blank" href="#"><i class="fa fa-instagram"></i></a></li>
-                            <li><a class="p-3" target="_blank" href="#"><i class="fa fa-dribbble"></i></a></li>
-                        </ul>
-                        <button class="btn btn-default btn-sm">View Profile</button>
-                        <button class="btn btn-default btn-sm">Message</button>
-                        <div class="row text-center mt-4">
-                            <div class="col-6 border-right">
-                                <label class="mb-0">Project</label>
-                                <h4 class="font-18">22</h4>
-                            </div>
-                            <div class="col-6">
-                                <label class="mb-0">Deal</label>
-                                <h4 class="font-18">$12,510</h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-3 col-lg-4 col-md-6">
-                <div class="card">
-                    <div class="card-body text-center">
-                        <img class="rounded-circle img-thumbnail w100" src="../assets/images/sm/avatar2.jpg" alt="">
-                        <h6 class="mt-3 mb-0">David Wallace</h6>
-                        <span>jason-porter@info.com</span>
-                        <ul class="mt-3 list-unstyled d-flex justify-content-center">
-                            <li><a class="p-3" target="_blank" href="#"><i class="fa fa-flickr"></i></a></li>
-                            <li><a class="p-3" target="_blank" href="#"><i class="fa fa-dropbox"></i></a></li>
-                            <li><a class="p-3" target="_blank" href="#"><i class="fa fa-apple"></i></a></li>
-                            <li><a class="p-3" target="_blank" href="#"><i class="fa fa-pinterest"></i></a></li>
-                        </ul>
-                        <button class="btn btn-default btn-sm">View Profile</button>
-                        <button class="btn btn-default btn-sm">Message</button>
-                        <div class="row text-center mt-4">
-                            <div class="col-6 border-right">
-                                <label class="mb-0">Project</label>
-                                <h4 class="font-18">12</h4>
-                            </div>
-                            <div class="col-6">
-                                <label class="mb-0">Deal</label>
-                                <h4 class="font-18">$1,840</h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            
+               
+            
+           
         </div>
     </div>
 </div>
@@ -424,6 +214,410 @@
             </div>
         </div>
     </footer>
+</div>
+<div class="modal" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            {!! Form::open(['url' => '', 'method' => 'post' ,'name' => 'client', 'id'=>'client','class'=>'client']) !!}
+            {!! Form::hidden('code',null,['class' => 'form-control','id'=>'code']) !!}
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Add Client</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body">
+                <div class="row clearfix">
+                    <div class="col-md-12 col-sm-6">
+                        <div class="form-group">
+                            {!! Form::text('client_name',null,['class' => 'form-control','id'=>'client_name', 'placeholder' => 'Client Name','autocomplete'=>'off']) !!}
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-12 col-sm-6">
+                        <div class="form-group">
+                            {!! Form::text('location',null,['class' => 'form-control','id'=>'location', 'placeholder' => 'Location','autocomplete'=>'off']) !!}
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-sm-6">
+                        <div class="form-group">
+                            {!! Form::text('address',null,['class' => 'form-control','id'=>'address', 'placeholder' => 'Address','autocomplete'=>'off']) !!}
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-sm-6">
+                        <div class="form-group">
+                            {!! Form::text('email',null,['class' => 'form-control','id'=>'email', 'placeholder' => 'Email','autocomplete'=>'off']) !!}
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-sm-6">
+                        <div class="form-group">
+                            {!! Form::text('mobile_no',null,['class' => 'form-control','id'=>'mobile_no', 'placeholder' => 'Mobile Number','autocomplete'=>'off']) !!}
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-12 col-sm-6">
+                        <div class="form-group">
+                            {!! Form::file('image',['id'=>'image','class'=>'form-control form-control-file','autocomplete'=>'off']) !!}
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-sm-6">
+                        <div class="form-group">
+                            {!! Form::text('twitter_link',null,['class' => 'form-control','id'=>'twitter_link', 'placeholder' => 'Twitter Link','autocomplete'=>'off']) !!}
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-sm-6">
+                        <div class="form-group">
+                            {!! Form::text('linkedin_link',null,['class' => 'form-control','id'=>'linkedin_link', 'placeholder' => 'Linkened In Link','autocomplete'=>'off']) !!}
+                        </div>
+                    </div>
+               
+               
+                </div>
+            </div>
+            <div class="modal-footer">
+
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                {!! Form::submit('Save',['class' => 'btn btn-primary','type'=>'submit','id'=>'save']) !!}
+            </div>
+            {!! Form::close() !!}
+        </div>
+    </div>
 </div>    
+
+@endsection
+@section('script')
+<script>
+    $(document).ready(function() {
+        get_client_details();
+
+        $("#add_button").click(function(){
+            $("#client_name").val('');
+            $("#location").val('');
+            $("#address").val('');
+            $("#email").val('');
+            $("#mobile_no").val('');
+            $("#image").val('');
+            $("#twitter_link").val('');
+            $("#linkedin_link").val('');
+            $("#exampleModal").modal('show');
+            $("#client")[0].reset();
+            $('#client').bootstrapValidator('resetForm', true);
+
+        });
+
+    $('#exampleModal').on('hide.bs.modal', function (e) {
+         $('.form-control-feedback').css('display', 'none');
+         $('.has-success').removeClass('has-success');
+      });
+        //create_table();
+       
+      
+        $('#client').bootstrapValidator({
+            message: 'This value is not valid',
+            feedbackIcons: {
+                valid: '',
+                invalid: '',
+                validating: '',
+            },
+            fields: {
+                client_name: {
+                    message: 'This field is not valid',
+                    validators: {
+                        notEmpty: {
+                            message: 'Enter Department Name',
+                        },
+
+                    }
+                },
+                location: {
+                    message: 'This field is not valid',
+                    validators: {
+                        notEmpty: {
+                            message: 'Enter Department Head',
+                        },
+
+                    }
+                },
+                address: {
+                    message: 'This field is not valid',
+                    validators: {
+                        notEmpty: {
+                            message: 'Enter Total Number of Employee',
+                        }
+                        
+
+                    }
+                },
+                email: {
+                    message: 'This field is not valid',
+                    validators: {
+                        notEmpty: {
+                            message: 'Enter Total Number of Employee',
+                        }
+                        
+
+                    }
+                },
+                mobile_no: {
+                    message: 'This field is not valid',
+                    validators: {
+                        notEmpty: {
+                            message: 'Enter Total Number of Employee',
+                        }
+                        
+
+                    }
+                },
+                image: {
+                    message: 'This field is not valid',
+                    validators: {
+                        notEmpty: {
+                            message: 'Enter Total Number of Employee',
+                        }
+                        
+
+                    }
+                },
+                twitter_link: {
+                    message: 'This field is not valid',
+                    validators: {
+                        notEmpty: {
+                            message: 'Enter Total Number of Employee',
+                        }
+                        
+
+                    }
+                },
+                linkedin_link: {
+                    message: 'This field is not valid',
+                    validators: {
+                        notEmpty: {
+                            message: 'Enter Total Number of Employee',
+                        }
+                        
+
+                    }
+                }
+               
+            }
+        }).on('success.form.bv', function(e) {
+            e.preventDefault();
+            clientSave();
+        });
+    });
+
+    function get_client_details(){
+       
+        $.ajax({
+            type: 'post',
+            url: "{{route('getClientDetails')}}",
+            data: {'_token':$("input[name='_token']").val()},
+            dataType: "json",
+            success: function(data) {
+             
+                var msg="";
+
+             $.each(data.clientData, function (key, value) {
+               
+                msg += '<div class="col-xl-3 col-lg-4 col-md-6">';
+                msg += '<div class="card">';
+                msg += '<div class="card-body text-center ribbon">';
+                msg+='<div class="ribbon-box green">New</div>';
+                msg+='<img class="rounded-circle img-thumbnail w100" src="./upload/'+value.image +'" alt="">';
+                msg+='<h6 class="mt-3 mb-0">'+value.client_name +'</h6>';
+                msg+='<span>'+value.client_email +'</span>';
+                msg+='<ul class="mt-3 list-unstyled d-flex justify-content-center">';
+                if(value.twitter_link != ''){
+                msg+='<li><a class="p-3" target="_blank" href="'+value.twitter_link +'"><i class="fa fa-twitter"></i></a></li>';
+                }               
+                if(value.linkedin_link != ''){
+                msg+='<li><a class="p-3" target="_blank" href="'+value.linkedin_link +'"><i class="fa fa-linkedin"></i></a></li>';
+                }
+                msg+=' </ul>';
+                msg+=' <button class="btn btn-default btn-sm view_profile" id="'+value.id +'">View Profile</button>';
+                msg+='<button class="btn btn-default btn-sm">Message</button>';
+                msg+='<div class="row text-center mt-4">';
+                msg+='<div class="col-6 border-right">';
+                msg+='<label class="mb-0">Project</label>';
+                msg+='<h4 class="font-18">07</h4>';
+                msg+='</div>';
+                msg+='<div class="col-6">';
+                msg+='<label class="mb-0">Deal</label>';
+                msg+='<h4 class="font-18">$2,510</h4>';
+                msg+='</div>';
+                msg+='</div>';
+                msg+='</div>';
+                msg+='</div>';
+                msg+='</div>';
+               });
+             $(msg).insertAfter( ".col-12" );
+             //$("#clients").append(msg);
+             $(".view_profile").click(function(){
+                var profile_id=this.id;
+                $.ajax({
+                    type: 'post',
+                    url: "{{route('getProfileView')}}",
+                    data: {'_token':$("input[name='_token']").val(),'profile_id':profile_id},
+                    dataType: "json",
+                    success: function(data) {
+                        var str = "";
+                        str += '<table class="table table-sm table-bordered">';
+                        str += '<tbody>';
+                       
+                        str += '<tr><td width=50%><label>Client Name: </label></td width=50%><td>' + data.clientData.client_name + '</td></tr>';
+                        str += '<tr><td><label> Location : </label></td><td>' + data.clientData.location + '</td></tr>';
+                        str += '<tr><td><label> Address : </label></td><td>' + data.clientData.address + '</td></tr>';
+                        str += '<tr><td><label> Email : </label></td><td>' + data.clientData.client_email + '</td></tr>';
+                        str += '<tr><td><label> Contact Number : </label></td><td>' + data.clientData.client_ph + '</td></tr>';
+
+                        if(data.clientData.twitter_link != ''){
+                        str += '<tr><td><label> Twitter Link : </label></td><td>' + data.clientData.twitter_link + '</td></tr>';
+                        }
+                        if(data.clientData.linkedin_link != ''){
+                        str += '<tr><td><label> Linkened IN Link : </label></td><td>' + data.clientData.linkedin_link + '</td></tr>';
+                        }
+                        
+                        
+                        str += '</tbody>';
+                        str += '</table>';
+
+
+                        $.confirm({
+                            title: 'Client Details',
+                            content: str,
+                            boxWidth: '60%',
+                            useBootstrap: false,
+                            buttons: {
+                                edit: function () {
+
+                                            $("#client_name").val(data.clientData.client_name);
+                                            $("#location").val(data.clientData.location);
+                                            $("#address").val(data.clientData.address);
+                                            $("#email").val(data.clientData.client_email);
+                                            $("#mobile_no").val(data.clientData.client_ph);
+                                            $("#twitter_link").val(data.clientData.twitter_link);
+                                            $("#linkedin_link").val(data.clientData.linkedin_link);
+                                            $("#code").val(data.clientData.id);
+                                            $("#exampleModal").modal('show');                                   
+                               
+                                },
+                                cancel: function () {}
+                            }
+                            
+                        });
+                        
+                    }
+                });
+
+
+             });
+
+             
+
+               
+             
+            }
+         
+        });
+
+
+    }
+
+
+   
+
+    function clientSave() {
+        $('.page-loader-wrapper').show();
+         
+        var client_name = $('#client_name').val();
+        var location = $('#location').val();
+        var address = $('#address').val();
+        var email = $('#email').val();
+        var mobile_no = $('#mobile_no').val();
+        var image = $('#image')[0].files;
+        var linkedin_link = $('#linkedin_link').val();
+        var twitter_link = $('#twitter_link').val();
+        //var code = $('#code').val();
+
+        var clientSave = new FormData();
+        clientSave.append('client_name', client_name);
+        clientSave.append('location', location);
+        clientSave.append('address', address);
+        clientSave.append('email', email);
+        clientSave.append('mobile_no', mobile_no);
+        clientSave.append('image', image[0]);
+        clientSave.append('linkedin_link', linkedin_link);
+        clientSave.append('twitter_link', twitter_link);
+        
+        if (code != '') {
+            departmentSaveUpdate.append('code', code);
+        }
+        clientSave.append('_token', '{{csrf_token()}}');
+
+        $.ajax({
+            type: 'post',
+            url: "{{route('clientSave')}}",
+            data: clientSave,
+            processData: false,
+            contentType: false,
+            dataType: "json",
+
+            success: function(data) {
+                $('#exampleModal').modal('hide');
+                $('.page-loader-wrapper').hide();
+                var msg = "";
+                if (data.status == 1) {
+                    msg = "Client Saved Successfully";
+
+                } else if (data.status == 2) {
+                    msg = "Client Updated Successfully";
+                 }
+
+                $.confirm({
+                    title: 'Success!!',
+                    type: 'green',
+                    icon: 'fa fa-check',
+                    content: msg,
+                    buttons: {
+                        ok: function() {
+                            get_client_details();
+                        }
+                    }
+                });
+
+
+            },
+            error: function(jqXHR, textStatus, errorThrown) {
+
+                $('.page-loader-wrapper').hide();
+                var msg = "";
+                
+                if (jqXHR.status !== 422 && jqXHR.status !== 400) {
+                    msg += "<strong>" + jqXHR.status + ": " + errorThrown + "</strong>";
+                } else {
+                    if (jqXHR.responseJSON.hasOwnProperty('exception')) {
+                        if (jqXHR.responseJSON.exception_code == 23000) {
+                            msg += "Data Already Used!! Cannot Be Approve.";
+                        }
+                    } else {
+                        msg += "Error(s):<strong><ul>";
+                        $.each(jqXHR.responseJSON['errors'], function(key, value) {
+
+                            msg += "<li>" + value + "</li>";
+                        });
+                        msg += "</ul></strong>";
+                    }
+
+                }
+                $.alert({
+                    type: 'red',
+                    icon: 'fa fa-warning',
+                    title: 'Error!!',
+                    content: msg
+                });
+
+
+            },
+        });
+    }
+</script>
 
 @endsection

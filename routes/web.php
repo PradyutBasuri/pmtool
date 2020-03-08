@@ -100,4 +100,10 @@ Route::post('holidayDelete', 'holidayController@holidayDelete')->name('holidayDe
 Route::post('leavesDatatable', 'leaveController@leavesDatatable')->name('leavesDatatable');
 Route::post('leaveStatusChanged', 'leaveController@leaveStatusChanged')->name('leaveStatusChanged');
 
+/*********************Client ********************/
+Route::post('clientSave', 'ClientController@clientSave')->name('clientSave');
+Route::post('getClientDetails', 'ClientController@getClientDetails')->name('getClientDetails');
+Route::post('getProfileView', 'ClientController@getProfileView')->name('getProfileView');
+
+
 });
