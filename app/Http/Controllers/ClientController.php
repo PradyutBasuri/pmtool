@@ -53,7 +53,7 @@ class ClientController extends Controller
             if(isset($request->code)){
             $saveClient = tbl_clients::find($request->code);
             }else{
-            $saveClient = new tbl_clientstbl_clients();
+            $saveClient = new tbl_clients();
 
             }
 
