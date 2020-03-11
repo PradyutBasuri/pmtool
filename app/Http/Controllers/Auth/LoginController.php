@@ -4,36 +4,50 @@ namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Redirect;
 
 class LoginController extends Controller
 {
-    /*
-    |--------------------------------------------------------------------------
-    | Login Controller
-    |--------------------------------------------------------------------------
-    |
-    | This controller handles authenticating users for the application and
-    | redirecting them to your home screen. The controller uses a trait
-    | to conveniently provide its functionality to your applications.
-    |
-    */
+  
 
     use AuthenticatesUsers;
 
-    /**
-     * Where to redirect users after login.
-     *
-     * @var string
-     */
     protected $redirectTo = '/home';
 
-    /**
-     * Create a new controller instance.
-     *
-     * @return void
-     */
+  
     public function __construct()
     {
         $this->middleware('guest')->except('logout');
+    }
+
+    public function showLoginForm()
+    {
+       
+        return view('auth.login');
+    }
+
+    public function postlogin(Request $request){
+       
+        $validator=  $request->validate([
+            'email' => 'required|string|email',
+            'password' => 'required|string',
+        ],
+    [
+'email.required'=>'Please provide email',
+'password.required'=>'Please provide password',
+    ]);
+  
+    if(auth()->attempt(array('email' => $request->email, 'password' => $request->password)))
+        {
+            if (auth()->user()->roll_type == 0) {
+                return redirect()->route('admin.dashboard');
+            }else{
+                return redirect()->route('home');
+            }
+        }else{
+            return redirect()->route('admin.getLogin')
+                ->with('error','Email-Address And Password Are Wrong.');
+        }
     }
 }
