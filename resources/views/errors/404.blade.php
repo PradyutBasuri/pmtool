@@ -16,7 +16,7 @@
   <!-- Google Font: Source Sans Pro -->
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
 </head>
-<body class="hold-transition sidebar-mini">
+<body class="hold-transition sidebar-mini sidebar-collapse">
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
@@ -28,10 +28,7 @@
             <h1>404 Error Page</h1>
           </div>
           <div class="col-sm-6">
-            <ol class="breadcrumb float-sm-right">
-              <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active">404 Error Page</li>
-            </ol>
+            
           </div>
         </div>
       </div><!-- /.container-fluid -->
@@ -47,20 +44,10 @@
 
           <p>
             We could not find the page you were looking for.
-            Meanwhile, you may <a href="{{asset('index.html')}}">return to dashboard</a> or try using the search form.
+            Meanwhile, you may <a href="{{ url()->previous() }}">return to dashboard</a> or try using the search form.
           </p>
 
-          <form class="search-form">
-            <div class="input-group">
-              <input type="text" name="search" class="form-control" placeholder="Search">
-
-              <div class="input-group-append">
-                <button type="submit" name="submit" class="btn btn-warning"><i class="fas fa-search"></i>
-                </button>
-              </div>
-            </div>
-            <!-- /.input-group -->
-          </form>
+      
         </div>
         <!-- /.error-content -->
       </div>

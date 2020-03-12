@@ -45,7 +45,7 @@
             <span class="float-right text-muted text-sm"></span>
           </a>
           <div class="dropdown-divider"></div>
-          <a href="{{route('logout')}}" class="dropdown-item">
+          <a href="{{route('admin.logout')}}" class="dropdown-item">
             <i class="fa fa-sign-out mr-2"></i> Logout
             <span class="float-right text-muted text-sm"></span>
           </a>
