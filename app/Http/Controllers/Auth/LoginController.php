@@ -5,7 +5,9 @@ namespace App\Http\Controllers\Auth;
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Redirect;
+use Illuminate\Support\Facades\Session;
 
 class LoginController extends Controller
 {
@@ -13,7 +15,7 @@ class LoginController extends Controller
 
     use AuthenticatesUsers;
 
-    protected $redirectTo = '/home';
+    protected $redirectTo = '/admin/dashboard';
 
   
     public function __construct()
@@ -46,8 +48,15 @@ class LoginController extends Controller
                 return redirect()->route('home');
             }
         }else{
-            return redirect()->route('admin.getLogin')
+            return redirect()->route('admin.login')
                 ->with('error','Email-Address And Password Are Wrong.');
         }
+    }
+
+    public function logout(){
+        Auth::logout();
+         Session::flush(); 
+        return redirect()->route('admin.login');
+
     }
 }

@@ -40,10 +40,10 @@ class User extends Authenticatable
 
     public function department_name()
     {
-        return $this->hasOne('App\tbl_departments','id','emp_department_type');
+        return $this->hasOne('App\Model\tbl_departments','id','emp_department_type');
     }
 
     public function get_leaves(){
-        return $this->hasMany('App\tbl_employee_leave', 'employee_user_id', 'id');
+        return $this->hasMany('App\Model\tbl_employee_leave', 'employee_user_id', 'id');
     }
 }

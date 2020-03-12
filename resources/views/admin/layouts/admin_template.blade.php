@@ -23,7 +23,7 @@
 <!-- jquery-validation -->
 <script src="{{asset('js/bootstrapValidator.min.js')}}"></script>
 <!-- Datepicker -->
-<script src="{{asset('js/bootstrap-datepicker.min.js')}}"></script>
+<script src="{{asset('js/bootstrap-datepicker.js')}}"></script>
 <!-- DataTables -->
 <script src="{{asset('plugins/datatables/jquery.dataTables.js')}}"></script>
 <!-- jquery-Confirm -->

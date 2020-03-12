@@ -366,7 +366,7 @@ $('#list-department').dataTable({
 }
 
 function departmentSave() {
-        $('.page-loader-wrapper').show();
+       
 
         var dept_name = $('#dept_name').val();
         var dept_head = $('#dept_head').val();
@@ -393,7 +393,7 @@ function departmentSave() {
 
             success: function(data) {
                 $('#exampleModal').modal('hide');
-               $('.page-loader-wrapper').hide();
+               
                 var msg = "";
                 if (data.status == 1) {
                     msg = "Employee Save Successfully";
@@ -421,7 +421,7 @@ function departmentSave() {
             },
             error: function(jqXHR, textStatus, errorThrown) {
 
-                $('.page-loader-wrapper').hide();
+               
                 var msg = "";
                 
                 if (jqXHR.status !== 422 && jqXHR.status !== 400) {

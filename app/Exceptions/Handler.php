@@ -4,6 +4,8 @@ namespace App\Exceptions;
 
 use Exception;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
+use Illuminate\Session\TokenMismatchException;
+use Symfony\Component\Debug\Exception\FatalThrowableError;
 
 class Handler extends ExceptionHandler
 {
@@ -46,6 +48,14 @@ class Handler extends ExceptionHandler
      */
     public function render($request, Exception $exception)
     {
+        //echo $request->getRequestUri();die;
+        if ($exception instanceof TokenMismatchException) {
+            return  redirect('/errors/404');
+        }
+        if ($exception instanceof FatalThrowableError) {
+            return redirect('/errors/404');
+        }
+         
         return parent::render($request, $exception);
     }
 }
